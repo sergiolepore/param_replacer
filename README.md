@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sergiolepore/param_replacer.png?branch=master)](https://travis-ci.org/sergiolepore/param_replacer)
+
 ## EN: Parameter Replacer for NodeJS
 
 This is a NodeJS module used to replace parameters enclosed between "%" within a string.
