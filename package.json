@@ -1,7 +1,7 @@
 {
   "name": "param_replacer",
   "description": "Node.js Parameter Replacer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Sergio Lepore <slepore@moobin.net>",
   "maintainers": [
     "sergiolepore <slepore@moobin.net>"
@@ -9,6 +9,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sergiolepore/param_replacer.git"
+  },
+  "scripts": {
+    "test": "vows --spec test/param-replace-test.js"
+  },
+  "devDependencies": {
+    "vows": ">= 0.5.9"
   },
   "keywords": [
     "parmeters",
