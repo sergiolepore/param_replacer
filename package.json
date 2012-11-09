@@ -1,7 +1,7 @@
 {
   "name": "param_replacer",
   "description": "Node.js Parameter Replacer",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "Sergio Lepore <slepore@moobin.net>",
   "maintainers": [
     "sergiolepore <slepore@moobin.net>"

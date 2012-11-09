@@ -36,3 +36,32 @@ Para más info, ingresar en: http://www.sergiolepore.net/2012/10/18/como-constru
     var resultado = param_replacer.replace(objetivo, reemplazos[idioma]);
 
     console.log(resultado);
+
+## Nuevo | New
+
+También puedes definir los parámetros como pares de llaves del JSON de reemplazos.
+You can also set the parameters as JSON pairs of replacement keys.
+
+    var param_replacer = require('param_replacer');
+
+    var objetivo = "%en.hello% %en.world% -- %es.hello% %es.world%";
+    var reemplazos = {
+      "en": {
+        "hello": "Hello",
+        "world": "World"
+      },
+      "es": {
+        "hello": "Hola",
+        "world": "Mundo"
+      }
+    };
+
+    var resultado = param_replacer.replace(objetivo, reemplazos);
+    resultado; // "Hello World -- Hola Mundo"
+
+## Changelog
+
+0.2.0 - (Nov 09, 2012)
+----------------------
+
+  - Añadido soporte para reemplazo de parámetros definidos como JSON
